@@ -19,10 +19,15 @@ export enum AppStatus {
   ERROR = 'ERROR'
 }
 
+export interface QuestPage {
+  imageUrl: string;
+  questItems: string[];
+}
+
 export interface SavedBook {
   id: string;
   title: string;
-  images: string[];
+  pages: QuestPage[];
   targetImage: string | null;
   createdAt: number;
 }
