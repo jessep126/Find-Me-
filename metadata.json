@@ -1,5 +1,5 @@
 {
-  "name": "Find Me! Waldo-style Generator",
-  "description": "Upload a photo of yourself and generate a dense 'Where's Wally' style illustration where you are the hidden character in any scenery you imagine.",
+  "name": "CrowdQuest",
+  "description": "Create personalized search-and-find adventures. Upload your photo and get hidden in a hand-drawn cartoon crowd anywhere in the universe.",
   "requestFramePermissions": []
 }
