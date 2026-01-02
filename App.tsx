@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
-import { ImageUploader } from './components/ImageUploader';
-import { geminiService } from './services/geminiService';
-import { AppStatus, SavedBook } from './types';
+import { ImageUploader } from './components/ImageUploader.tsx';
+import { geminiService } from './services/geminiService.ts';
+import { AppStatus, SavedBook } from './types.ts';
 
 const STORAGE_KEY = 'crowd_quest_library';
 
